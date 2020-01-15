@@ -6,12 +6,12 @@ version = "0.1.0-1"     -- renumber, must match the info in the filename of this
 -- supported_platforms = {"linux", "macosx"}
 
 source = {
-     url = "https://github.com/lsaint/kong-plugin-url-regex-rewriter.git"
+     url = "git://github.com/lsaint/kong-plugin-url-regex-rewriter.git"
   -- tag = "0.1-1"
 }
 
 description = {
-  summary = "A Kong custom plugin, that shows rewrite url using regex.",
+  summary = "A Kong custom plugin, that allows rewrite url using regex.",
   license = "Apache 2.0"
 }
 
