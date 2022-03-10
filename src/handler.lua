@@ -16,7 +16,7 @@ end
 function plugin:access(conf) -- Executed for every request upon it's reception from a client and before it is being proxied to the upstream service.
   plugin.super.access(self)
 
-  local newstr, n, err = ngx.re.sub(ngx.var.uri, conf.regex, conf.replace)
+  local newstr, n, err = ngx.re.sub(ngx.escape_uri(ngx.var.uri, 0), conf.regex, conf.replace)
   if n > 0 then
       ngx.var.upstream_uri = newstr
       ngx.log(ngx.NOTICE, string.format("%s ---> %s", ngx.var.uri, ngx.var.upstream_uri))
