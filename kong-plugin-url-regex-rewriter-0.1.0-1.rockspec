@@ -1,6 +1,6 @@
 package = "kong-plugin-url-regex-rewriter"
 
-version = "0.1.0-1"     -- renumber, must match the info in the filename of this rockspec!
+version = "0.1.1-1"     -- renumber, must match the info in the filename of this rockspec!
                       -- The version '0.1' is the source code version, the trailing '1' is the version of this rockspec.
 
 -- supported_platforms = {"linux", "macosx"}
