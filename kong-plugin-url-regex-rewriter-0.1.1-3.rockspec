@@ -6,8 +6,8 @@ version = "0.1.1-2"     -- renumber, must match the info in the filename of this
 -- supported_platforms = {"linux", "macosx"}
 
 source = {
-     url = "git+https://github.com/lsaint/kong-plugin-url-regex-rewriter",
-     tag = "0.1.1"
+     url = "git+https://github.com/lsaint/kong-plugin-url-regex-rewriter"
+     --tag = "0.1.1"
 }
 
 description = {
